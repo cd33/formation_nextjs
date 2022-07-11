@@ -94,6 +94,7 @@ const {data} = useContext(DataContext)
 
 ## Next.js
 ### Commandes
+Créer App: npx create-next-app mon-app
 Lancer l'app: npm run dev
 
 ### Routing
