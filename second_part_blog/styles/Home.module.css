@@ -1,0 +1,38 @@
+.container_row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.tableau {
+  margin: 0 auto;
+  font-size: 20px;
+  border-collapse: collapse;
+}
+
+.tableau tr {
+  border: 1px solid #333;
+}
+
+.tableau td {
+  padding: 10px;
+}
+
+.tableau tr td:nth-child(1) {
+  border-right: 1px solid #333;
+}
+
+.card {
+  margin: 0 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .container_row {
+    flex-direction: column;
+  }
+
+  .card {
+    margin: 10px 0;
+  }
+}
